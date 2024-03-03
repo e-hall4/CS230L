@@ -1,6 +1,7 @@
+import React from 'react';
 import './App.css';
-import './NavBar';
-import './Card';
+import NavBar from'./NavBar';
+import Card from './Card';
 
 function App() {
   return (
@@ -10,7 +11,6 @@ function App() {
           <h2>Section - 002</h2>
           <p>WVU ID: 800384692</p>
           <p>Hi I am Elijah</p>
-          <p>Test to see if it is updating</p>
           <Card />
     </div>
   );

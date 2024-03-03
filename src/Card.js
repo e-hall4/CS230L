@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 
 function Card() {
     return (
@@ -7,3 +8,5 @@ function Card() {
         </div>
     );
 }
+
+export default Card;
